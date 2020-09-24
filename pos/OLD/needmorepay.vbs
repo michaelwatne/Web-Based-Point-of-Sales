@@ -1,0 +1,1 @@
+MsgBox "Tendered amount is lower than the total cost.", +vbSystemModal

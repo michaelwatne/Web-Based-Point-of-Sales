@@ -1,0 +1,24 @@
+html {
+	font-family: Arial, Helvetica, Sans-Serif;
+}
+
+.item {
+	border: 0px solid #d9d9d9;
+	width: 150px;
+	height: auto;
+	background-color:white;
+	padding: 6px;
+}
+.item btn {
+	margin: 2px;
+}
+.item img {
+	border: 0px;
+	width: auto;
+	height: 75px;
+}
+
+.beverages {
+	max-width: 40%;
+	float:left;
+}

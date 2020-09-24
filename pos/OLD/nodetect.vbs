@@ -1,0 +1,1 @@
+MsgBox "USB Drive still not detected. Exiting.", +vbSystemModal

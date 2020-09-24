@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>WarningBox</title>
+<HTA:APPLICATION
+  APPLICATIONNAME="WarningBox"
+  ID="WarningBox"
+  VERSION="1.0"
+  MAXIMIZEBUTTON="no"
+  MINIMIZEBUTTON="no"/>
+  <STYLE>
+html, body {
+ 
+ font-size: 90%;
+ line-height: 2.1em;
+ margin: 10;
+ padding: 0;
+}
+h1 {font-family: Arial;
+ color: red;
+ font-size: 2em;
+ text-transform: uppercase;
+ text-align: center;
+}
+h2 {font-family: Arial;
+ font-size: 1.5em;
+}
+h3 
+{font-family: Arial;
+ color: #666;
+ font-size: 1em;
+ text-align: center;
+}
+</STYLE>
+<title>Scam Prevention Notice</title>
+</head>
+
+<script language="VBScript">
+
+Sub Window_OnLoad
+  'This method will be called when the application loads
+  'Add your code here
+End Sub
+
+</script>
+
+<body bgcolor="white">
+<h1>HOLD ON!</h1>
+<center><img align="center" src="stopsign.png" width="100px" height="auto" style="width:100px;height:auto;" /></center>
+<h2 align="center">Do not use this feature if you received a call for remote access!</h2>
+<h3 align="center">If someone claiming to work for IT or Technical Support is requesting access to this system remotely, do not give them access! Hang up immediately as it is a scam call! Any authorized tech agent will NEVER call or text you requesting access to this system!</h3>
+<center><button onclick="requestsupport">I understand this and wish to continue.</button></center>
+<!--Add your controls here-->
+<script language="vbscript">
+    Sub requestsupport
+		Set objShell = CreateObject("Wscript.Shell")
+		objShell.Run "c:\POS\remoteaccess\tvqs.exe"
+	End Sub
+</script>
+<!--{{InsertControlsHere}}-Do not remove this line-->
+</body>
+</html>

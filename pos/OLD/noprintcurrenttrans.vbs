@@ -1,0 +1,1 @@
+msgbox "Cannot print current transaction from here. Pay first to get print out.",+vbSystemModal

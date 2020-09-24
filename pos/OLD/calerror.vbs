@@ -1,0 +1,1 @@
+MsgBox "Unable to run calibration utility. You may not have a supported monitor.", +vbSystemModal

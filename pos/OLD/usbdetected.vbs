@@ -1,0 +1,1 @@
+MsgBox "USB drive has been detected. Data transfer in progress. Do not pull out the USB drive. This can result in a loss of data.", +vbSystemModal

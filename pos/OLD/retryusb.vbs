@@ -1,0 +1,1 @@
+MsgBox "USB drive not detected. Try again.", +vbSystemModal

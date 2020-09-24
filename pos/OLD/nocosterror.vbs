@@ -1,0 +1,1 @@
+MsgBox "Total cost is $0. Cannot process payment. Please add items to make a payment.", +vbSystemModal

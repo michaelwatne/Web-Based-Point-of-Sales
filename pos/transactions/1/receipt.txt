@@ -1,0 +1,10 @@
+NJ Concessions 
+Sun 07/28/2019  9:36:39.32 
+Transaction ID: 1 
+---------------- 
+ 
+Coca Cola - $1.00 
+ 
+Total: 1.00  
+Amount Tendered: Tendered: $1  
+Change Given: 0 
